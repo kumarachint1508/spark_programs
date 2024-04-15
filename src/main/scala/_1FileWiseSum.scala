@@ -2,8 +2,8 @@ import org.apache.spark.{SparkConf, SparkContext}
 
 object _1FileWiseSum {
   def main(args: Array[String]): Unit = {
-    val conf=new SparkConf().setMaster("local").setAppName("My App")
-    val sc=new SparkContext(conf)
+    /*val conf=new SparkConf().setMaster("local").setAppName("My App")
+    val sc=new SparkContext(conf)*/
   /*  val numFileRDD=sc.wholeTextFiles("D:\\dataset\\filewiseaddition\\num*.txt")
     val result=numFileRDD.mapValues{ line =>
       println(s"line=$line")
