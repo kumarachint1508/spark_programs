@@ -1,0 +1,6 @@
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\DELL\IdeaProjects\WordCountSpark1\src\main\scala\CustomerAnalysis_Assigmnet.scala:33:27: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: (_, (None, None)), (_, (None, Some(None))), (_, (None, Some(Some(_)))), (_, (Some(_), None))[0m
+[0m[[0m[33mwarn[0m] [0m[0m    joined.collect.foreach{[0m
+[0m[[0m[33mwarn[0m] [0m[0m                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m4 deprecations (since 2.13.3); re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
